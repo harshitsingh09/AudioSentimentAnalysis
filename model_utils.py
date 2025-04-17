@@ -5,7 +5,7 @@ from keras.optimizers import Adam
 import pickle
 
 def load_model_and_encoder(model_json_path='model.json',
-                           weights_path='Emotion_Model.h5',
+                           weights_path='Emotion_Model.weights.h5',
                            label_path='labels.pkl'):
     """
     Loads the trained model and label encoder.
